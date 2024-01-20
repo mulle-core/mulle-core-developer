@@ -1,0 +1,1 @@
+--nodetype '${MULLE__CORE_NODETYPE:-tar}' --marks 'no-all-load,no-cmake-loader,no-cmake-searchpath,no-import,no-singlephase' --url '${MULLE__CORE_URL:-https://github.com/mulle-core/mulle-core/archive/${MULLE_TAG}.tar.gz}' --branch '${MULLE__CORE_BRANCH}' --tag '${MULLE__CORE_TAG:-latest}' 'mulle-core'

@@ -1,0 +1,10 @@
+digraph sourcetree
+{
+   rankdir = TD;
+   node [ shape="box"; style="filled" ]
+   "mulle-core-developer"        [ fillcolor="yellow"]
+   "mulle-c-developer"           [ fillcolor="white"]
+   "mulle-sde-developer"         [ fillcolor="white"]
+
+   "mulle-core-developer" -> "mulle-c-developer" -> "mulle-sde-developer"
+}

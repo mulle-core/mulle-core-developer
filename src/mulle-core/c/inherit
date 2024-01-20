@@ -1,0 +1,2 @@
+# dont want the mulle-c11 header we would inherit from mulle-c/c
+mulle-sde/c

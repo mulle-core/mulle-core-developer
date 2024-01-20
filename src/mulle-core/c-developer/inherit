@@ -1,0 +1,8 @@
+mulle-core/c;runtime
+mulle-c/c-cmake;buildtool
+
+#
+# We don't inherit mulle-sde anymore, because it doesn't have mulle-c11
+# and we want to use MULLE_C_GLOBAL_EXTERN
+#
+mulle-c/c-demo;extra

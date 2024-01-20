@@ -1,0 +1,12 @@
+{
+   project =
+   {
+      description="🤠 mulle-core developer kit for mulle-sde";
+      domain="github";
+      name="mulle-core-developer";
+      user="mulle-core";
+      repo="mulle-core-developer";
+      homepage="https://github.com/mulle-core/mulle-core-developer";
+      license="BSD-3-Clause";
+   };
+}

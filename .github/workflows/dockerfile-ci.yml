@@ -1,0 +1,17 @@
+name: DockerfileCI
+
+on: [push,workflow_dispatch]
+
+
+jobs:
+  build:
+   runs-on: ubuntu-latest
+
+   steps:
+     - uses: actions/checkout@v3
+       if: ${{ ! env.ACT }}
+
+     - name: Build Docker image
+       if: ${{ ! env.ACT }}
+       run: docker build .
+ 
