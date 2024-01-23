@@ -27,7 +27,4 @@ RUN DEBIAN_FRONTEND=noninteractive \
    && wget "https://raw.githubusercontent.com/mulle-sde/mulle-sde/${MULLE_SDE_DEFAULT_VERSION:-release}/bin/installer-all" \
    && chmod 755 installer-all \
    && ./installer-all /usr no \
-\
-   && wget "https://github.com/mulle-cc/mulle-clang-project/releases/download/17.0.6.0/mulle-clang-17.0.6.0-bookworm-amd64.deb"  \
-   && dpkg --install "mulle-clang-17.0.6.0-bookworm-amd64.deb"
 

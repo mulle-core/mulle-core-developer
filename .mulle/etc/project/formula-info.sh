@@ -2,8 +2,8 @@
 # If you don't have this file, there will be no homebrew
 # formula operations.
 #
-PROJECT="mulle-objc-developer"      # your project/repository name
-DESC="🎩 mulle-objc developer kit for mulle-sde"
+PROJECT="mulle-core-developer"      # your project/repository name
+DESC="🤠 mulle-core developer kit for mulle-sde"
 
 # LANGUAGE="c"             # c,cpp, objc, bash ...
 # NAME="${PROJECT}"        # formula filename without .rb extension
