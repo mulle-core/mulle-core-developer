@@ -41,3 +41,4 @@ cola/wilted/
 .idea/
 .roam
 .graveyard
+*.tmp.*

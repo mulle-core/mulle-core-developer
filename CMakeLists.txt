@@ -2,7 +2,7 @@ cmake_minimum_required( VERSION 3.14)
 
 project( mulle-core-developer NONE)
 
-set( PROJECT_VERSION 0.0.2)
+set( PROJECT_VERSION 0.0.3)
 
 
 INSTALL( FILES ${SCRIPTS}
